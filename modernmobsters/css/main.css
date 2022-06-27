@@ -1,0 +1,121 @@
+body { 
+    background-image: url('../img/Youtube.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+ 
+  }
+.innerdiv{
+
+background-color: #e6e7e8;
+padding: 20px;
+border: 1px solid #000;
+border-radius: 20px;
+
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mt30{
+    margin-top: 30px;
+  }
+  .mt130{
+    margin-top: 250px;
+  }
+.sc25R{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.sc25L{
+    float: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.sc27{
+    height: 50px;
+}
+.imgshow{
+    display: none;
+}
+.imgtopsc26{
+    display: none;
+}
+.imgsc24 {
+   /* padding-right: 20px; 
+    width: 100%; */
+}
+.imgsc26 {
+   /* padding-left: 0px; 
+    width: 100%; */
+}
+.Logo1 { 
+align-items: center;
+display: block; 
+position: relative;  
+transform: translate(-50%, 0);
+left: 50%;
+margin-right: -50%;
+}
+.Logo2 {
+  display: none;
+}
+img.mintNFTButton:hover{
+     /*background: #383; */
+}
+    
+  @media only screen and (max-width: 770px) {
+    img {
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        float: none;
+    }
+    .sc25R{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .sc25L{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .mt130{
+        margin-top: 20px;
+    }
+    .sc27{
+        height: 60px;
+        width: 100%;
+    }
+    .imgtop{
+        display: none;
+    }
+    .imgshow{
+        display: none;
+    }
+    .imgtopsc26{
+        display: block;
+    }
+    .sc27{
+        width: 200px;
+    }
+    .Logo1 {
+        display: none; 
+    }
+    .Logo2 {
+        display: none;
+    }
+  }
